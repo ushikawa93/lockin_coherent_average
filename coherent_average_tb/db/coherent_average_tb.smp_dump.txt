@@ -1,0 +1,11 @@
+
+State Machine - |coherent_average_tb|coherent_average_sm:CA|state
+Name state.extra_3 state.extra_2 state.extra_1 state.finished state.limpiando state.transmitiendo state.calculando state.idle 
+state.idle 0 0 0 0 0 0 0 0 
+state.calculando 0 0 0 0 0 0 1 1 
+state.transmitiendo 0 0 0 0 0 1 0 1 
+state.limpiando 0 0 0 0 1 0 0 1 
+state.finished 0 0 0 1 0 0 0 1 
+state.extra_1 0 0 1 0 0 0 0 1 
+state.extra_2 0 1 0 0 0 0 0 1 
+state.extra_3 1 0 0 0 0 0 0 1 

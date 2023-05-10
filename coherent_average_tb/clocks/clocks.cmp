@@ -1,0 +1,11 @@
+	component clocks is
+		port (
+			clk_clk                : in  std_logic := 'X'; -- clk
+			clk_ca_clk             : out std_logic;        -- clk
+			clk_calc_finales_clk   : out std_logic;        -- clk
+			clk_lockin_clasico_clk : out std_logic;        -- clk
+			clk_ma_clk             : out std_logic;        -- clk
+			reset_reset_n          : in  std_logic := 'X'  -- reset_n
+		);
+	end component clocks;
+

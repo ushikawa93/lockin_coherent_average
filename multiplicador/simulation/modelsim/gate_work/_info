@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/Mi unidad/00-Doctorado/00-ProyectosQuartus/simulation/modelsim
+vmult_testbench
+Z1 !s110 1681174727
+!i10b 1
+!s100 1[[dmj_hZ^lWA?UfQbVh93
+I8b2K:AhJhZSQJBfE^?zbM2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1681171255
+8G:/Mi unidad/00-Doctorado/00-ProyectosQuartus/mult_testbench.v
+FG:/Mi unidad/00-Doctorado/00-ProyectosQuartus/mult_testbench.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1681174727.000000
+!s107 G:/Mi unidad/00-Doctorado/00-ProyectosQuartus/mult_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Mi unidad/00-Doctorado/00-ProyectosQuartus|G:/Mi unidad/00-Doctorado/00-ProyectosQuartus/mult_testbench.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+G:/Mi unidad/00-Doctorado/00-ProyectosQuartus}
+Z5 tCvgOpt 0
+vmultiplicador
+R1
+!i10b 1
+!s100 H<JUNJX0gn09`XSgB=^:z1
+INbdX9EO9NNk450nj[`@im0
+R2
+R0
+w1681174710
+8multiplicador.vo
+Fmultiplicador.vo
+L0 31
+R3
+r1
+!s85 0
+31
+!s108 1681174726.000000
+!s107 multiplicador.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|multiplicador.vo|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+.
+R5

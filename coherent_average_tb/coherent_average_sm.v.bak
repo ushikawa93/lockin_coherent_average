@@ -1,0 +1,178 @@
+
+module coherent_average_sm
+
+	#( parameter M = 32,
+		parameter Q = 32,
+		parameter N = 3)
+
+	(	input clk_rapido,
+		input clk_lento,
+		input reset_n,
+	
+		input [11:0] x,
+		input x_valid,
+	
+		output reg [31:0] data_out,
+		output data_out_valid
+	
+);
+
+
+parameter idle = 0;
+parameter calculando = 1;
+parameter transmitiendo = 2;
+parameter limpiando = 3;
+
+
+///////////////// Maquina de estados //////////////////////////
+
+reg [2:0] estado_actual, estado_siguiente;
+
+always @ (posedge clk_rapido or negedge reset_n)
+	estado_actual <= (!reset_n)? limpiando : estado_siguiente;
+	
+//////////////////////////////////////////////////////////////
+
+
+always @ (*)
+begin
+
+	case(estado_actual):
+		
+		idle:
+			estado_siguiente <= (!reset_n)? idle : ( (x_valid)? calculando: idle);
+			
+		calculando:
+			estado_siguiente <= (!reset_n)? idle : ((k == N)? transmitiendo: calculando); 
+		
+		transmitiendo:
+			estado_siguiente <= (!reset_n)? idle : ((h == M)? limpiando: transmitiendo);
+		
+		limpiando:
+			estado_siguiente <= (!reset_n)? idle : ((n == M)? idle: transmitiendo);
+		
+	endcase
+
+
+end
+	
+
+reg [15:0] n,n_1,n_2,h,k;
+
+reg [Q-1:0] y [M-1:0];
+reg [Q-1:0] y_actual,x_1;
+reg [Q-1:0] sum_actual;
+
+reg data_out_valid_reg;
+
+always @ (posedge clk_rapido or negedge reset_n)
+begin
+
+	if (!reset_n)
+	begin
+	
+		n <= 0;
+		n_1 <= 0;
+		n_2 <= 0;
+		k <= 0;
+		
+	end
+	
+	else
+	begin
+	
+		case (estado_actual)
+			idle:
+			begin
+				
+			end
+			
+			calculando:
+			begin
+			
+				if (x_valid)
+				begin
+						
+					// Fetch
+					y_actual <= y[n];
+					x_1 <= x;
+					n <= (n == M-1)? 0:n+1;
+					
+					// Sum
+					sum_actual <= y_actual + x_1;
+					n_1 <= n;
+				
+					// Save
+					y[n_2] <= sum_actual;				
+					n_2 <= n_1;		
+					
+					k <= (n_2 == M-1)? k+1:k;
+					
+				end
+				
+			end
+			
+			transmitiendo:
+			begin
+			
+				n <= 0; // Aprovecho para reiniciar este registro con el que voy a limpiar la RAM
+				
+				// Para transmitir uso el clock lento
+			end
+			
+			limpiando:
+			begin
+			
+				y[n] <= 0;
+				n <= n+1;
+			
+			end
+		endcase
+		
+	end
+end
+
+
+always @ (posedge clk_lento or negedge reset_n)
+begin
+
+	if (!reset_n)
+	begin
+			h <= 0;
+	end
+	
+	else
+	begin	
+
+		case (estado_actual)
+			idle:
+			begin
+				data_out_valid_reg <= 0;
+			end
+			
+			calculando:
+			begin
+				data_out_valid_reg <= 0;
+				// Para esto uso el clock rapido
+			end
+			
+			transmitiendo:
+			begin
+				
+				data_out <= y[h];
+				h <= h+1;
+				data_out_valid_reg <= 1;
+				
+			end
+			
+			limpiando:
+			begin
+				data_out_valid_reg <= 0;
+				// Para esto uso el clock rapido
+			end
+		endcase
+		
+	end
+	
+end
+		

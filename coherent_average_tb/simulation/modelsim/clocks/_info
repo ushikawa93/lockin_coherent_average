@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/MatiOliva/Documents/00-ProyectosQuartus/coherent_average_tb/simulation/modelsim
+vclocks
+!s110 1683675833
+!i10b 1
+!s100 oDkGWi3DNWPCMdm[[OKQ43
+IOf6flB<ElHOUMO@FFoQXX3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/coherent_average_tb/simulation/modelsim
+w1683667391
+8C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/coherent_average_tb/clocks/synthesis/clocks.v
+FC:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/coherent_average_tb/clocks/synthesis/clocks.v
+L0 6
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1683675832.000000
+!s107 C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/coherent_average_tb/clocks/synthesis/clocks.v|
+!s90 -reportprogress|300|-vlog01compat|-work|clocks|+incdir+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/coherent_average_tb/clocks/synthesis|C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/coherent_average_tb/clocks/synthesis/clocks.v|
+!i113 1
+Z1 o-vlog01compat -work clocks
+!s92 -vlog01compat -work clocks +incdir+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/coherent_average_tb/clocks/synthesis
+Z2 tCvgOpt 0
+vclocks_pll_0
+!s110 1683742955
+!i10b 1
+!s100 KU`Y[KJOaFYW57:k?g7E20
+IV_>>`Q`I80g[YAKbFVKjV1
+R0
+dC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/simulation/modelsim
+w1683667392
+8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/clocks/synthesis/submodules/clocks_pll_0.v
+FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/clocks/synthesis/submodules/clocks_pll_0.v
+L0 2
+OV;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1683742955.000000
+!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/clocks/synthesis/submodules/clocks_pll_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|clocks|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/clocks/synthesis/submodules|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/clocks/synthesis/submodules/clocks_pll_0.v|
+!i113 1
+R1
+!s92 -vlog01compat -work clocks +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/clocks/synthesis/submodules
+R2

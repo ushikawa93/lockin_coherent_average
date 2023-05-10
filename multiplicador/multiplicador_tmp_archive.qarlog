@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/multiplicador/multiplicador_tmp_archive.qarlog
+
+Archive:	C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/multiplicador/multiplicador_tmp_archive.qar
+Date:		Tue May 09 13:43:11 2023
+Quartus Prime		17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/multiplicador/mult_testbench.v
+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/multiplicador/multiplicador.qpf
+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/multiplicador/multiplicador.qsf
+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/multiplicador/multiplicador.v
+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/multiplicador/timing.sdc
+c:/intelfpga_lite/17.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue May 09 13:43:14 2023
+Source archive file:	C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/multiplicador/multiplicador_tmp_archive.qar
+Archive was extracted into	C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/
+		 - successfully.

@@ -1,0 +1,15 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst clocks.pll_0 -pg 1 -lvl 2 -y 30
+preplace inst clocks -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst clocks.clk_0 -pg 1 -lvl 1 -y 30
+preplace netloc POINT_TO_POINT<net_container>clocks</net_container>(SLAVE)pll_0.reset,(MASTER)clk_0.clk_reset) 1 1 1 260
+preplace netloc EXPORT<net_container>clocks</net_container>(MASTER)clocks.clk_ma,(MASTER)pll_0.outclk2) 1 2 1 NJ
+preplace netloc EXPORT<net_container>clocks</net_container>(MASTER)clocks.clk_lockin_clasico,(MASTER)pll_0.outclk0) 1 2 1 NJ
+preplace netloc EXPORT<net_container>clocks</net_container>(MASTER)pll_0.outclk3,(MASTER)clocks.clk_calc_finales) 1 2 1 NJ
+preplace netloc EXPORT<net_container>clocks</net_container>(SLAVE)clocks.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>clocks</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)clocks.reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>clocks</net_container>(MASTER)clocks.clk_ca,(MASTER)pll_0.outclk1) 1 2 1 NJ
+preplace netloc POINT_TO_POINT<net_container>clocks</net_container>(MASTER)clk_0.clk,(SLAVE)pll_0.refclk) 1 1 1 280
+levelinfo -pg 1 0 50 580
+levelinfo -hier clocks 60 90 310 440

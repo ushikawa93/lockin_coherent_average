@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/MatiOliva/Documents/00-ProyectosQuartus/coherent_average_tb/simulation/modelsim
+vcoherent_average_tb
+!s110 1677259447
+!i10b 1
+!s100 Wl3Xe3AkXSVZDWTfOdCJ@2
+Idn0Skm7B2V8c;gjdoTdnU2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1677259438
+8coherent_average_tb.vo
+Fcoherent_average_tb.vo
+L0 31
+OV;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1677259447.000000
+!s107 coherent_average_tb.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|coherent_average_tb.vo|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+tCvgOpt 0

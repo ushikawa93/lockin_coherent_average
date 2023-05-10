@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/sumador_tmp_archive.qarlog
+
+Archive:	C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/sumador_tmp_archive.qar
+Date:		Tue May 09 19:33:37 2023
+Quartus Prime		17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/assignment_defaults.qdf
+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/multiplicador.qsf
+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/sum_testbench.v
+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/sumador.qpf
+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/sumador.v
+C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/timing.sdc
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue May 09 19:33:44 2023
+Source archive file:	C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/sumador_tmp_archive.qar
+Archive was extracted into	C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/fetch_test/
+		 - successfully.

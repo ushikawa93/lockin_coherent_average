@@ -1,0 +1,12 @@
+
+module coherent_average_tb(
+
+	input clk,
+	input reset_n,
+
+	output [31:0] data_out,
+	output data_out_valid
+
+);
+
+
