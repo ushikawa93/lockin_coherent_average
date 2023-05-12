@@ -16,10 +16,16 @@ module lockin_amplitude
 	 reg [N-1:0] sq_root;
 	 parameter div = N_lockin * M;
 	 
+	 reg [N-1:0] res_fase_reg,res_cuad_reg;
+	 
+	 
 	 always @ (posedge Clock)
 	 begin
 	 
-		num_in <=  (res_fase/div) * (res_fase/div) + (res_cuad/div) * (res_cuad/div);
+		res_fase_reg <= res_fase;
+		res_cuad_reg <= res_cuad;
+	 
+		num_in <=  (res_fase_reg/div) * (res_fase_reg/div) + (res_cuad_reg/div) * (res_cuad_reg/div);
 		amplitud <= 2 * sq_root / ref_mean_value;
 		
 	 end

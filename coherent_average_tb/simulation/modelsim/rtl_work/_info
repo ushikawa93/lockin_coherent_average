@@ -7,48 +7,48 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/simulation/modelsim
+Z0 dC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/simulation/modelsim
 vBCD_display
-Z1 !s110 1683754496
+Z1 !s110 1683921852
 !i10b 1
 !s100 hTRz88LbnX0kjLo`i8Ml51
-I=8jb@6IZkf_JcmA<`XI:80
+IA1=mbTTY@X[S0G_KR81?60
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1636145892
-8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/BCD_display.v
-FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/BCD_display.v
+8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/BCD_display.v
+FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/BCD_display.v
 L0 2
 Z3 OV;L;10.6d;65
 r1
 !s85 0
 31
-Z4 !s108 1683754496.000000
-!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/BCD_display.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/BCD_display.v|
+Z4 !s108 1683921852.000000
+!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/BCD_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/BCD_display.v|
 !i113 1
 Z5 o-vlog01compat -work work
-Z6 !s92 -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb
 Z7 tCvgOpt 0
 n@b@c@d_display
 vcoherent_average_sm
 R1
 !i10b 1
 !s100 oW60HG6TKMfBnc7iVG8N>1
-IzeFQZ4bQ13W8?]@AJE>Hi0
+I0J0XUTo_lVnOfoeah?@3g0
 R2
 R0
 w1683752843
-8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_sm.v
-FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_sm.v
+8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v
+FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v
 L0 2
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_sm.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_sm.v|
+!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v|
 !i113 1
 R5
 R6
@@ -56,21 +56,21 @@ R7
 vcoherent_average_tb
 R1
 !i10b 1
-!s100 PbH<gcE8jAT2@@mlPAQC42
-I;N1`EWZ`BK_jVTVEmI_@k2
+!s100 c7@fViB3VXB7zE?<FbV[h1
+IaL;FLX30zGd[bfJL<]WdJ1
 R2
 R0
-w1683754278
-8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v
-FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v
+w1683921671
+8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v
+FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v
 L0 2
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v|
+!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v|
 !i113 1
 R5
 R6
@@ -78,21 +78,21 @@ R7
 vdata_source
 R1
 !i10b 1
-!s100 Xkb:OiH0c2@GA2m=]LRj21
-Ij[V6;QeDj9zzSNA[IKiZT0
+!s100 X4bzEj[3fe[g_S:KX1FD<2
+I[WEZzPR6h8KVC]b1lWTao1
 R2
 R0
-w1683737690
-8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/data_source.v
-FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/data_source.v
+w1683921385
+8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/data_source.v
+FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/data_source.v
 L0 2
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/data_source.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/data_source.v|
+!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/data_source.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/data_source.v|
 !i113 1
 R5
 R6
@@ -101,20 +101,20 @@ vdescomponer_en_digitos
 R1
 !i10b 1
 !s100 eDQWa2m4DdZMa55`VKc[62
-I7]PIVS]9;jjGJZYJzcA<j3
+IgPOK44>[<zVD66D@>QlfT2
 R2
 R0
 w1677182388
-8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v
-FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v
+8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
 L0 2
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v|
+!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v|
 !i113 1
 R5
 R6
@@ -122,21 +122,21 @@ R7
 vlockin
 R1
 !i10b 1
-!s100 ^SSY[hC3JhYl0YLWD^c1R1
-I39K61]O`oCR[MF4SiBK;T3
+!s100 NhbAZ_5Ng_T_D_DPAoOA`2
+IISSf`fOTVIiV?WnG0j?MA1
 R2
 R0
-w1683745675
-8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin.v
-FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin.v
+w1683916412
+8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin.v
+FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin.v
 L0 2
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin.v|
+!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin.v|
 !i113 1
 R5
 R6
@@ -144,65 +144,65 @@ R7
 vlockin_amplitude
 R1
 !i10b 1
-!s100 EYdIAmeL132DaRn<PM_`>1
-I2ilo2@nhUE[B1Ugm^IE]81
+!s100 I9`_W2eWDfJXGHN:f6KLk3
+IcIaNJhN2CR8UZ64;5?La]1
 R2
 R0
-w1677256198
-8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin_amplitude.v
-FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin_amplitude.v
+w1683914589
+8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v
+FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v
 L0 2
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin_amplitude.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin_amplitude.v|
+!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v|
 !i113 1
 R5
 R6
 R7
 vsegment7
-!s110 1683754495
+!s110 1683921851
 !i10b 1
 !s100 ]c`hm7Mo_9fToWZRUd^U62
-I8:<7_Eb6Vb51@`z3V<XFR0
+IToeCGh6OVK:Mi3<2o79OW3
 R2
 R0
 w1618934310
-8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/segment7.v
-FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/segment7.v
+8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/segment7.v
+FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/segment7.v
 L0 2
 R3
 r1
 !s85 0
 31
-!s108 1683754495.000000
-!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/segment7.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/segment7.v|
+!s108 1683921851.000000
+!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/segment7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/segment7.v|
 !i113 1
 R5
 R6
 R7
 vtestbench
-R1
+!s110 1683921853
 !i10b 1
 !s100 mH12VfYl6NR:MK>[HJPYQ3
-I1EkoLD8HXIMFbZF8hUjdV3
+IcOa9dRnEZ?kOMDBmgV=>b0
 R2
 R0
 w1683754457
-8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/testbench.v
-FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/testbench.v
+8C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/testbench.v
+FC:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/testbench.v
 L0 4
 R3
 r1
 !s85 0
 31
-R4
-!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/testbench.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/testbench.v|
+!s108 1683921853.000000
+!s107 C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb|C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/testbench.v|
 !i113 1
 R5
 R6

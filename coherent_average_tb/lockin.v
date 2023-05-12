@@ -18,15 +18,13 @@ module lockin
 	  output signed [Q_sumas-1:0] data_out_cuad,
 	  output data_out_valid
 
-);
+	);
 
 
 
 
 
 reg [15:0] ref_sen [0:M-1];
-	
-
 reg [15:0] ref_cos [0:M-1];
 	
 	initial
@@ -48,14 +46,13 @@ reg [15:0] ref_cos [0:M-1];
 reg signed [Q_productos-1:0] ref_sen_actual;
 reg signed [Q_productos-1:0] ref_cos_actual;
 
-reg [7:0] n,n_1,n_2;
+reg [7:0] n,n_1,n_2,n_3;
 reg [15:0] k;
 
-reg signed [Q_productos-1:0] prod_fase,prod_cuad;
-reg signed [Q_sumas-1:0] acum_fase,acum_cuad;
+reg signed [Q_productos-1:0] prod_fase,prod_cuad,prod_fase_1,prod_cuad_1;
+reg signed [Q_sumas-1:0] acum_fase,acum_cuad,acum_fase_1,acum_cuad_1;
 
 reg [Q_productos-1:0] x_1;
-reg x_valid_1,x_valid_2;
 
 wire done_calculating;
 	
@@ -68,21 +65,24 @@ begin
 		n <= 0;
 		n_1 <= 0;
 		n_2 <= 0;
+		n_3 <= 0;
 		
 		k <= 0;
 		x_1 <= 0;
 		
 		acum_fase <= 0;
 		acum_cuad <= 0;
-		
 		prod_fase <= 0;
 		prod_cuad <= 0;
 		
+		acum_fase_1 <= 0;
+		acum_cuad_1 <= 0;
+		prod_fase_1 <= 0;
+		prod_cuad_1 <= 0;
+		
 		ref_sen_actual <= 0;
 		ref_cos_actual <= 0;
-		
-		x_valid_1 <= 0;
-		x_valid_2 <= 0;
+
 	
 	end
 	
@@ -91,21 +91,27 @@ begin
 	
 		ref_sen_actual <= ref_sen [n] - ref_mean_value;
 		ref_cos_actual <= ref_cos [n] - ref_mean_value;
+		
 		x_1 <= x;
 		n <= (n == M-1)? 0:n+1;
-		x_valid_1 <= x_valid;
+
 		
 		prod_fase <= x_1 * ref_sen_actual;
 		prod_cuad <= x_1 * ref_cos_actual;
 		n_1 <= n;
-		x_valid_2 <= x_valid_1;
-		
-		acum_fase <= acum_fase + prod_fase;
-		acum_cuad <= acum_cuad + prod_cuad;
+	
+		//acum_fase_1 <= acum_fase;
+		//acum_cuad_1 <= acum_cuad;
+		prod_fase_1 <= prod_fase;
+		prod_cuad_1 <= prod_cuad;
 		n_2 <= n_1;
-
 		
-		k <= (n_2 == M-1)? k+1:k;
+		
+		acum_fase <= acum_fase + prod_fase_1;
+		acum_cuad <= acum_cuad + prod_cuad_1;
+		n_3 <= n_2;
+		
+		k <= (n_3 == M-1)? k+1:k;
 		
 	
 	end

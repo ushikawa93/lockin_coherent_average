@@ -25,7 +25,7 @@ reg [Q-1:0] buffer [0:M-1];
 	initial	
 	begin	
 		if(M == 32)
-			$readmemh("LU_tables/x32_12b.mem",buffer);
+			$readmemh("LU_tables/x32_14b.mem",buffer);
 		else if(M == 128)
 			$readmemh("LU_tables/x128_14b.mem",buffer);			
 	end

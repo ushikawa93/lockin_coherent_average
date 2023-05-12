@@ -37,12 +37,13 @@ module coherent_average_tb(
 
 );
 
+parameter compile_LI = 0;
+parameter compile_CA_LI = 1;
 parameter simulacion = 0;
-
 
 parameter N_ma = 1;
 parameter N_ca = 8192;
-parameter M = 128;
+parameter M = 32;
 parameter Q_signal = 14;
 
 parameter N = N_ma * N_ca ;
@@ -124,151 +125,171 @@ endgenerate
 wire [Q_signal-1:0] x_rapido;
 wire x_rapido_valid;
 
-data_source data_sim_rapida(
-
-	// Entradas de control
-	.clk(clk_ca),
-	.reset_n(reset_n),
-	.enable(enable),
-	
-	// Salida avalon streaming
-	.data_valid(x_rapido_valid),
-	.data(x_rapido)
-	
-);
-defparam data_sim_rapida.M = M;
-defparam data_sim_rapida.Q = Q_signal;
-
 wire [Q_signal-1:0] x_lento;
 wire x_lento_valid;
 
-data_source data_sim_lenta(
 
-	// Entradas de control
-	.clk(clk_lockin_clasico),
-	.reset_n(reset_n),
-	.enable(enable),
-	
-	// Salida avalon streaming
-	.data_valid(x_lento_valid),
-	.data(x_lento)
-	
-);
+generate
+	if(compile_CA_LI)
+	begin
+		data_source data_sim_rapida(
 
-defparam data_sim_lenta.M = M;
-defparam data_sim_lenta.Q = Q_signal;
+			// Entradas de control
+			.clk(clk_ca),
+			.reset_n(reset_n),
+			.enable(enable),
+			
+			// Salida avalon streaming
+			.data_valid(x_rapido_valid),
+			.data(x_rapido)			
+		);
+		defparam data_sim_rapida.M = M;
+		defparam data_sim_rapida.Q = Q_signal;
+	end
+	
+	if(compile_LI)
+	begin
+
+		data_source data_sim_lenta(
+
+			// Entradas de control
+			.clk(clk_lockin_clasico),
+			.reset_n(reset_n),
+			.enable(enable),
+			
+			// Salida avalon streaming
+			.data_valid(x_lento_valid),
+			.data(x_lento)			
+		);
+		defparam data_sim_lenta.M = M;
+		defparam data_sim_lenta.Q = Q_signal;
+	end
+endgenerate
 
 
 /////////////////////////////////////////////////
 // ========== Lockin ===========
 /////////////////////////////////////////////////
 
-lockin lockin_simple(
-
-	.clk(clk_lockin_clasico),
-	.reset_n(reset_n),
-	
-	.x(x_lento),
-	.x_valid(x_lento_valid),
-	
-	.data_out_fase(data_li_fase),
-	.data_out_cuad(data_li_cuad),
-	.data_out_valid(data_li_valid)
-);
-
-defparam lockin_simple.N = N;
-defparam lockin_simple.M = M;
-
-defparam lockin_simple.Q_in = Q_in_li;
-defparam lockin_simple.Q_productos = Q_productos_li;
-defparam lockin_simple.Q_sumas = Q_sumas_li;
-
-
-// Calcula aproximadamente la amplitud del resultado:
+// Para calcular aproximadamente la amplitud del resultado:
 wire amplitud_li_done;
 
 wire [63:0] fase_li =  {14'b0 , data_li_fase};		//14 = 64-Q_sumas_li
 wire [63:0] cuad_li =  {14'b0 , data_li_cuad};
 
-lockin_amplitude amplitud_li_inst(
 
-   .Clock(clk_calc_finales),  //Clock
-   .reset_n(reset_n),  //Asynchronous active high reset.      
-   .res_fase(fase_li), 
-	.res_cuad(cuad_li),
-   .done(amplitud_li_done),  
-   .amplitud(amplitud_li) 
-);
+generate
+	if(compile_LI)
+	begin
+		lockin lockin_simple(
 
-defparam amplitud_li_inst.N_lockin = N;
-defparam amplitud_li_inst.M = M;
+			.clk(clk_lockin_clasico),
+			.reset_n(reset_n),
+			
+			.x(x_lento),
+			.x_valid(x_lento_valid),
+			
+			.data_out_fase(data_li_fase),
+			.data_out_cuad(data_li_cuad),
+			.data_out_valid(data_li_valid)
+		);
+
+		defparam lockin_simple.N = N;
+		defparam lockin_simple.M = M;
+
+		defparam lockin_simple.Q_in = Q_in_li;
+		defparam lockin_simple.Q_productos = Q_productos_li;
+		defparam lockin_simple.Q_sumas = Q_sumas_li;
 
 
+
+		lockin_amplitude amplitud_li_inst(
+
+			.Clock(clk_calc_finales),  //Clock
+			.reset_n(reset_n),  //Asynchronous active high reset.      
+			.res_fase(fase_li), 
+			.res_cuad(cuad_li),
+			.done(amplitud_li_done),  
+			.amplitud(amplitud_li) 
+		);
+
+		defparam amplitud_li_inst.N_lockin = N;
+		defparam amplitud_li_inst.M = M;
+	end
+endgenerate
 /////////////////////////////////////////////////
 // ========== Promedio coherente + LI ===========
 /////////////////////////////////////////////////
 
-coherent_average_sm CA(
-
-	.clk_rapido(clk_ca),
-	.clk_lento(clk_ma),
-	.reset_n(reset_n),
-	.enable(enable),
-	
-	.x(x_rapido),
-	.x_valid(x_rapido_valid),
-	
-	.data_out(data_ca),
-	.data_out_valid(data_ca_valid)
-
-);
-
-defparam CA.M = M;
-defparam CA.N = N_ca;
-
-defparam CA.simulacion = simulacion;
-defparam CA.Q_in = Q_in_ca;
-defparam CA.Q_out = Q_out_ca;
-
-
-lockin lockin_corto(
-
-	.clk(clk_ma),
-	.reset_n(reset_n),
-	
-	.x(data_ca),
-	.x_valid(data_ca_valid),
-	
-	.data_out_fase(data_ca_li_fase),
-	.data_out_cuad(data_ca_li_cuad),
-	.data_out_valid(data_ca_li_valid)
-);
-
-defparam lockin_corto.M = M;
-defparam lockin_corto.N = N_ma;
-
-defparam lockin_corto.Q_in = Q_in_li_ca;
-defparam lockin_corto.Q_productos = Q_productos_li_ca;	// Este esta sobrado, con 41 alcanzaría 
-defparam lockin_corto.Q_sumas = Q_sumas_li_ca;			// Este tambien, con 48 alcanza
-
-
-// Calcula aproximadamente la amplitud del resultado:
+// Para calcular aproximadamente la amplitud del resultado:
 wire amplitud_ca_li_done;
 
 wire [63:0] fase_ca_li =  {14'b0 , data_ca_li_fase};
 wire [63:0] cuad_ca_li =  {14'b0 , data_ca_li_cuad};
 
-lockin_amplitude amplitud_ca_li_inst(
-   .Clock(clk_calc_finales),  //Clock
-   .reset_n(reset_n),  //Asynchronous active high reset.      
-   .res_fase(fase_ca_li),   //this is the number for which we want to find square root.
-	.res_cuad(cuad_ca_li),
-   .done(amplitud_ca_li_done),     //This signal goes high when output is ready
-   .amplitud(amplitud_ca_li)  //square root of 'num_in'
-);
+generate
+	if(compile_CA_LI)
+	begin
+		coherent_average_sm CA(
 
-defparam amplitud_ca_li_inst.N_lockin = N;
-defparam amplitud_ca_li_inst.M = M;
+			.clk_rapido(clk_ca),
+			.clk_lento(clk_ma),
+			.reset_n(reset_n),
+			.enable(enable),
+			
+			.x(x_rapido),
+			.x_valid(x_rapido_valid),
+			
+			.data_out(data_ca),
+			.data_out_valid(data_ca_valid)
+
+		);
+
+		defparam CA.M = M;
+		defparam CA.N = N_ca;
+
+		defparam CA.simulacion = simulacion;
+		defparam CA.Q_in = Q_in_ca;
+		defparam CA.Q_out = Q_out_ca;
+
+
+		lockin lockin_corto(
+
+			.clk(clk_ma),
+			.reset_n(reset_n),
+			
+			.x(data_ca),
+			.x_valid(data_ca_valid),
+			
+			.data_out_fase(data_ca_li_fase),
+			.data_out_cuad(data_ca_li_cuad),
+			.data_out_valid(data_ca_li_valid)
+		);
+
+		defparam lockin_corto.M = M;
+		defparam lockin_corto.N = N_ma;
+
+		defparam lockin_corto.Q_in = Q_in_li_ca;
+		defparam lockin_corto.Q_productos = Q_productos_li_ca;	// Este esta sobrado, con 41 alcanzaría 
+		defparam lockin_corto.Q_sumas = Q_sumas_li_ca;			// Este tambien, con 48 alcanza
+
+
+
+
+		lockin_amplitude amplitud_ca_li_inst(
+			.Clock(clk_calc_finales),  //Clock
+			.reset_n(reset_n),  //Asynchronous active high reset.      
+			.res_fase(fase_ca_li),   //this is the number for which we want to find square root.
+			.res_cuad(cuad_ca_li),
+			.done(amplitud_ca_li_done),     //This signal goes high when output is ready
+			.amplitud(amplitud_ca_li)  //square root of 'num_in'
+		);
+
+		defparam amplitud_ca_li_inst.N_lockin = N;
+		defparam amplitud_ca_li_inst.M = M;
+		
+	end
+endgenerate
 
 /////////////////////////////////////////////////
 // ========== Display resultados ===========

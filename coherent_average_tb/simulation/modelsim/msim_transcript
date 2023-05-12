@@ -10,101 +10,101 @@
 # Copying C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/segment7.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/segment7.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 18:34:55 on May 10,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/segment7.v 
+# Start time: 17:04:11 on May 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/segment7.v 
 # -- Compiling module segment7
 # 
 # Top level modules:
 # 	segment7
-# End time: 18:34:55 on May 10,2023, Elapsed time: 0:00:00
+# End time: 17:04:11 on May 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 18:34:56 on May 10,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v 
+# Start time: 17:04:12 on May 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v 
 # -- Compiling module descomponer_en_digitos
 # 
 # Top level modules:
 # 	descomponer_en_digitos
-# End time: 18:34:56 on May 10,2023, Elapsed time: 0:00:00
+# End time: 17:04:12 on May 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/BCD_display.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/BCD_display.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 18:34:56 on May 10,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/BCD_display.v 
+# Start time: 17:04:12 on May 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/BCD_display.v 
 # -- Compiling module BCD_display
 # 
 # Top level modules:
 # 	BCD_display
-# End time: 18:34:56 on May 10,2023, Elapsed time: 0:00:00
+# End time: 17:04:12 on May 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 18:34:56 on May 10,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v 
+# Start time: 17:04:12 on May 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v 
 # -- Compiling module coherent_average_tb
 # 
 # Top level modules:
 # 	coherent_average_tb
-# End time: 18:34:56 on May 10,2023, Elapsed time: 0:00:00
+# End time: 17:04:12 on May 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin_amplitude.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 18:34:56 on May 10,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin_amplitude.v 
+# Start time: 17:04:12 on May 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v 
 # -- Compiling module lockin_amplitude
 # 
 # Top level modules:
 # 	lockin_amplitude
-# End time: 18:34:56 on May 10,2023, Elapsed time: 0:00:00
+# End time: 17:04:12 on May 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_sm.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 18:34:56 on May 10,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_sm.v 
+# Start time: 17:04:12 on May 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v 
 # -- Compiling module coherent_average_sm
 # 
 # Top level modules:
 # 	coherent_average_sm
-# End time: 18:34:56 on May 10,2023, Elapsed time: 0:00:00
+# End time: 17:04:12 on May 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/data_source.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/data_source.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 18:34:56 on May 10,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/data_source.v 
+# Start time: 17:04:12 on May 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/data_source.v 
 # -- Compiling module data_source
 # 
 # Top level modules:
 # 	data_source
-# End time: 18:34:56 on May 10,2023, Elapsed time: 0:00:00
+# End time: 17:04:12 on May 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 18:34:56 on May 10,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin.v 
+# Start time: 17:04:12 on May 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin.v 
 # -- Compiling module lockin
 # 
 # Top level modules:
 # 	lockin
-# End time: 18:34:56 on May 10,2023, Elapsed time: 0:00:00
+# End time: 17:04:12 on May 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/testbench.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb {C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/testbench.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 18:34:56 on May 10,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/testbench.v 
+# Start time: 17:04:13 on May 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb" C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/testbench.v 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 18:34:56 on May 10,2023, Elapsed time: 0:00:00
+# End time: 17:04:13 on May 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
-# Start time: 18:34:57 on May 10,2023
+# Start time: 17:04:13 on May 12,2023
 # Loading work.testbench
 # ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
 # No such file or directory. (errno = ENOENT)
@@ -113,52 +113,6 @@
 # ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
 # No such file or directory. (errno = ENOENT)
 # Loading work.coherent_average_tb
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_hssi_ver' at "cyclonev_hssi_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
-# No such file or directory. (errno = ENOENT)
-# Loading work.data_source
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_hssi_ver' at "cyclonev_hssi_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_hssi_ver' at "cyclonev_hssi_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
-# No such file or directory. (errno = ENOENT)
-# Loading work.lockin
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_hssi_ver' at "cyclonev_hssi_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
-# No such file or directory. (errno = ENOENT)
-# Loading work.lockin_amplitude
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_hssi_ver' at "cyclonev_hssi_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
-# No such file or directory. (errno = ENOENT)
-# Loading work.coherent_average_sm
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_hssi_ver' at "cyclonev_hssi_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_hssi_ver' at "cyclonev_hssi_ver".
-# No such file or directory. (errno = ENOENT)
-# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
-# No such file or directory. (errno = ENOENT)
 # ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
 # No such file or directory. (errno = ENOENT)
 # ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_hssi_ver' at "cyclonev_hssi_ver".
@@ -210,37 +164,63 @@
 # No such file or directory. (errno = ENOENT)
 # ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
 # No such file or directory. (errno = ENOENT)
-# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v(195): [PCDPC] - Port size (64) does not match connection size (16) for port 'amplitud'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin_amplitude.v(10).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/amplitud_li_inst File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin_amplitude.v
-# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v(213): [PCDPC] - Port size (32) does not match connection size (27) for port 'data_out'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_sm.v(18).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/CA File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_sm.v
-# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v(263): [PCDPC] - Port size (64) does not match connection size (16) for port 'amplitud'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin_amplitude.v(10).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/amplitud_ca_li_inst File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin_amplitude.v
-# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v(284): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit0'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v
-# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v(284): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit1'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v(5).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v
-# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v(284): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit2'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v
-# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v(284): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit3'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v
-# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v(284): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit4'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v(8).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v
-# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/coherent_average_tb.v(284): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit5'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v(9).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/descomponer_en_digitos.v
+# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_hssi_ver' at "cyclonev_hssi_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.data_source
+# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_hssi_ver' at "cyclonev_hssi_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.coherent_average_sm
+# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_hssi_ver' at "cyclonev_hssi_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.lockin
+# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_ver' at "cyclonev_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_hssi_ver' at "cyclonev_hssi_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cyclonev_pcie_hip_ver' at "cyclonev_pcie_hip_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.lockin_amplitude
+# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(233): [PCDPC] - Port size (32) does not match connection size (27) for port 'data_out'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/genblk5/CA File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v
+# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(279): [PCDPC] - Port size (64) does not match connection size (16) for port 'amplitud'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/genblk5/amplitud_ca_li_inst File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v
+# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(303): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit0'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(303): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit1'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(303): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit2'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(303): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit3'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(303): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit4'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+# ** Warning: (vsim-3015) C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(303): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit5'. The port definition is at: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: MatiOliva  Hostname: DESKTOP-BRUHM76  ProcessID: 9928
-#           Attempting to use alternate WLF file "./wlftfceddh".
+#           Attempting to use alternate WLF file "./wlft3hcfg8".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftfceddh
+#           Using alternate file: ./wlft3hcfg8
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # Break key hit
-# Break in Module lockin at C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/coherent_average_tb/lockin.v line 62
-# End time: 18:35:40 on May 10,2023, Elapsed time: 0:00:43
-# Errors: 48, Warnings: 11
+# Break in Module lockin at C:/Users/MatiOliva/Documents/00-ProyectosQuartus/lia_ca_articulo/lockin_coherent_average/coherent_average_tb/lockin.v line 59
+# End time: 17:04:43 on May 12,2023, Elapsed time: 0:00:30
+# Errors: 39, Warnings: 10
