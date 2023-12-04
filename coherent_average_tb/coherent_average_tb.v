@@ -37,12 +37,11 @@ module coherent_average_tb(
 
 );
 
-parameter compile_LI = 0;
+parameter compile_LI = 1;
 parameter compile_CA_LI = 1;
-parameter simulacion = 0;
 
 parameter N_ma = 1;
-parameter N_ca = 8192;
+parameter N_ca = 32;
 parameter M = 32;
 parameter Q_signal = 14;
 
@@ -96,27 +95,11 @@ wire clk_calc_finales;
 wire reset_n = KEY[0];
 wire enable = SW[8];
 
-
-generate 
-	if(!simulacion)
-		clocks u0 (
-			 .clk_clk           		 (CLOCK_50),           //           clk.clk
-			 .reset_reset_n     		 (reset_n),     //         reset.reset_n
-			 .clk_lockin_clasico_clk (clk_lockin_clasico),    //    clk_rapido.clk
-			 .clk_ca_clk     			 (clk_ca),     //     clk_lento.clk
-			 .clk_ma_clk 				 (clk_ma),
-			 .clk_calc_finales_clk   (clk_calc_finales)  // clk_mas_lento.clk
-		);
-	else
-	begin
-		assign clk_lockin_clasico = CLOCK_50;
-		assign clk_ca = CLOCK_50;
-		assign clk_ma = CLOCK_50;
-		assign clk_calc_finales = CLOCK_50;
-		
-	end
-endgenerate
-
+// Por ahora conecto todos los clock juntos a 50MHz. En realidad el CA puede andar mas rapido que el LI
+assign clk_lockin_clasico = CLOCK_50;
+assign clk_ca = CLOCK_50;
+assign clk_ma = CLOCK_50;
+assign clk_calc_finales = CLOCK_50;
 
 /////////////////////////////////////////////////
 // ========== Origen de datos ===========
@@ -248,7 +231,7 @@ generate
 		defparam CA.M = M;
 		defparam CA.N = N_ca;
 
-		defparam CA.simulacion = simulacion;
+		defparam CA.simulacion = 1;
 		defparam CA.Q_in = Q_in_ca;
 		defparam CA.Q_out = Q_out_ca;
 

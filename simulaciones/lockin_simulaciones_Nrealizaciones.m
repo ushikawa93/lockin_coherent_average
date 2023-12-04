@@ -87,8 +87,8 @@ fprintf("Sigma_o esperado: " + std_in/(sqrt((N*M)/2) ) + "\n" );
 fprintf("Amplitud (LI): " + mean_amps_li + "\n");
 fprintf("Sigma_o (LI): " + std_amps_li + "\n");
 
-fprintf("Amplitud (LI): " + mean_amps_ca_li + "\n");
-fprintf("Sigma_o (LI): " + std_amps_ca_li + "\n\n");
+fprintf("Amplitud (CA_LI): " + mean_amps_ca_li + "\n");
+fprintf("Sigma_o (CA_LI): " + std_amps_ca_li + "\n\n");
 
 
 

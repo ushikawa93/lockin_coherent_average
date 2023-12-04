@@ -42,12 +42,12 @@ begin
 	
 	// Si queremos que corte...
 	// 8192*128*20ns + 1000ns (x las dudas)
-	//#1310720
-	//enable=0;
-	//reset_n = 0;
-	//#100
-	//enable=1;
-	//reset_n = 1;
+	#1310720
+	enable=0;
+	reset_n = 0;
+	#100
+	enable=1;
+	reset_n = 1;
 	
 end
 
