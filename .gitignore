@@ -2,22 +2,14 @@
 db/
 incremental_db/
 simulation/
-*.rpt
-*.done
-*.jdi
-*.smsg
+
 *.chg
-*.html
 *.htm
 *.eqn
-*.pin
-*.sof
-*.pof
 *.jic
 *.raw
 *.sld
 *.map
-*.summary
 *.qws
 
 # Temporary and log files
@@ -35,8 +27,3 @@ simulation/
 *.vcd
 *.wlf
 
-# Synopsys Design Constraints (SDC) files
-*.sdc
-
-# User-specific files
-*.qws
