@@ -34,7 +34,7 @@ Todos los algoritmos probados para DE1SoC (cyclone V)
 
 
 ## Carpeta simulaciones
-Simulaciones en Matlab para demostrar la equivalencia entra LI y CA_LI.
+Simulaciones en Matlab para demostrar la equivalencia entra LI y CA_LI y el efecto del Lock-in sobre el ruido.
 
 ### Lockin_simulaciones.m 
 Simula los algoritmos y grafica la evolución de las variables en el tiempo

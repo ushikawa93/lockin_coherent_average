@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/simulation/modelsim
 vBCD_display
-Z1 !s110 1738870899
+Z1 !s110 1738872817
 !i10b 1
 !s100 hTRz88LbnX0kjLo`i8Ml51
 IjIZeKoY7T_D_BlI754;W90
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1738869425
+Z3 w1738871306
 8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/BCD_display.v
 FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/BCD_display.v
 L0 2
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1738870899.000000
+Z5 !s108 1738872817.000000
 !s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/BCD_display.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/BCD_display.v|
 !i113 1
@@ -32,7 +32,7 @@ Z7 !s92 -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-R
 Z8 tCvgOpt 0
 n@b@c@d_display
 vcoherent_average_sm
-R1
+Z9 !s110 1738872818
 !i10b 1
 !s100 oW60HG6TKMfBnc7iVG8N>1
 I<D]7gE?ehFSb;_:`7:51U2
@@ -46,7 +46,7 @@ R4
 r1
 !s85 0
 31
-R5
+Z10 !s108 1738872818.000000
 !s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v|
 !i113 1
@@ -54,7 +54,7 @@ R6
 R7
 R8
 vcoherent_average_tb
-R1
+R9
 !i10b 1
 !s100 ?8AfzKlNFmf_688ej2dF]1
 I2VXF=NSLYjPe0^i^]ENPW0
@@ -76,7 +76,7 @@ R6
 R7
 R8
 vdata_source
-Z9 !s110 1738870901
+Z11 !s110 1738872819
 !i10b 1
 !s100 X4bzEj[3fe[g_S:KX1FD<2
 I;8SdKK3kSB:12f_FB9MZC1
@@ -90,7 +90,7 @@ R4
 r1
 !s85 0
 31
-Z10 !s108 1738870901.000000
+Z12 !s108 1738872819.000000
 !s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/data_source.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/data_source.v|
 !i113 1
@@ -120,7 +120,7 @@ R6
 R7
 R8
 vlockin
-R9
+R11
 !i10b 1
 !s100 NhbAZ_5Ng_T_D_DPAoOA`2
 I7TkcdV5Y2cTQihNWD0SA[0
@@ -134,7 +134,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin.v|
 !i113 1
@@ -142,7 +142,7 @@ R6
 R7
 R8
 vlockin_amplitude
-R1
+R9
 !i10b 1
 !s100 I9`_W2eWDfJXGHN:f6KLk3
 I8iU7I@4Bn_U=:i6F3ZaQT2
@@ -156,7 +156,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v|
 !i113 1
@@ -164,16 +164,16 @@ R6
 R7
 R8
 vmult_0k11
-R9
+R11
 !i10b 1
 !s100 I=[04hA]KcnGgKH<PmM@[1
 I<=>zjD8h@@<FX^=MOD8MD0
 R2
 R0
-Z11 w1738869877
+Z13 w1738872046
 8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_0k11.v
 FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_0k11.v
-Z12 L0 68
+Z14 L0 68
 R4
 r1
 !s85 0
@@ -183,51 +183,51 @@ R10
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_0k11.v|
 !i113 1
 R6
-Z13 !s92 -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db
+Z15 !s92 -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db
 R8
 vmult_1k11
-R9
+R11
 !i10b 1
 !s100 6=>DdH?Ud4G7gnR^4if1n3
 IJi1cHUe?FEeL70UikdM<63
 R2
 R0
-R11
+w1738872047
 8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_1k11.v
 FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_1k11.v
-R12
+R14
 R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_1k11.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_1k11.v|
 !i113 1
 R6
-R13
+R15
 R8
 vmult_6k11
-Z14 !s110 1738870900
+R9
 !i10b 1
 !s100 :KCJe8V8S25B>WW6kKz9n1
 IH99k0mVJb75aEL6oI`_F01
 R2
 R0
-w1738869875
+R13
 8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_6k11.v
 FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_6k11.v
-Z15 L0 108
+Z16 L0 108
 R4
 r1
 !s85 0
 31
-Z16 !s108 1738870900.000000
+R10
 !s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_6k11.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_6k11.v|
 !i113 1
 R6
-R13
+R15
 R8
 vmult_7k11
 R9
@@ -236,29 +236,29 @@ R9
 IUAZ6MR8;HM;S;LD?[_MQa2
 R2
 R0
-w1738869876
+R13
 8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_7k11.v
 FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_7k11.v
-R15
+R16
 R4
 r1
 !s85 0
 31
-R16
+R10
 !s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_7k11.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_7k11.v|
 !i113 1
 R6
-R13
+R15
 R8
 vmult_vj11
-R14
+R9
 !i10b 1
 !s100 55>Bc1RhZ[B<=eU1zhPCW1
 I0Je>klK`JJD2dU^k^a09I2
 R2
 R0
-w1738869874
+w1738872045
 8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_vj11.v
 FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_vj11.v
 L0 148
@@ -266,12 +266,12 @@ R4
 r1
 !s85 0
 31
-R16
+R10
 !s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_vj11.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_vj11.v|
 !i113 1
 R6
-R13
+R15
 R8
 vsegment7
 R1
@@ -296,7 +296,7 @@ R6
 R7
 R8
 vtestbench
-R9
+R11
 !i10b 1
 !s100 RgNA9FODi?NjVFe8:EKKe1
 IHIV[oTgJL7<^EXi4GSa@:0
@@ -310,7 +310,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/testbench.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/testbench.v|
 !i113 1

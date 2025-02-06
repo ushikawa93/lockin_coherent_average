@@ -1,5 +1,5 @@
 Analysis & Synthesis report for multiplicador
-Tue May 09 18:56:54 2023
+Thu Feb 06 17:31:49 2025
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue May 09 18:56:54 2023       ;
+; Analysis & Synthesis Status     ; Successful - Thu Feb 06 17:31:49 2025       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; multiplicador                               ;
 ; Top-level Entity Name           ; sumador                                     ;
@@ -155,7 +155,7 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 2           ;
+; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -167,13 +167,13 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                         ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                           ; Library ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------+---------+
-; sumador.v                        ; yes             ; User Verilog HDL File  ; C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/sumador.v ;         ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                    ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                      ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------------+---------+
+; sumador.v                        ; yes             ; User Verilog HDL File  ; C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/sumador/sumador.v ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -262,7 +262,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -272,14 +272,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Tue May 09 18:56:26 2023
+    Info: Processing started: Thu Feb 06 17:31:28 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off sumador -c multiplicador
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file sumador.v
-    Info (12023): Found entity 1: sumador File: C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/sumador.v Line: 2
+    Info (12023): Found entity 1: sumador File: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/sumador/sumador.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file sum_testbench.v
-    Info (12023): Found entity 1: sum_testbench File: C:/Users/mati9/Documents/00-ProyectosQuartus/DE1_SoC/lia_ca_articulo/sumador/sum_testbench.v Line: 2
+    Info (12023): Found entity 1: sum_testbench File: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/sumador/sum_testbench.v Line: 2
 Info (12127): Elaborating entity "sumador" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -289,9 +289,9 @@ Info (21057): Implemented 160 device resources after synthesis - the final resou
     Info (21059): Implemented 27 output pins
     Info (21061): Implemented 79 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4804 megabytes
-    Info: Processing ended: Tue May 09 18:56:54 2023
-    Info: Elapsed time: 00:00:28
-    Info: Total CPU time (on all processors): 00:00:42
+    Info: Peak virtual memory: 4810 megabytes
+    Info: Processing ended: Thu Feb 06 17:31:49 2025
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:36
 
 
