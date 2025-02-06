@@ -1,7 +1,6 @@
 # Quartus II output and temporary files
 db/
 incremental_db/
-simulation/
 
 *.chg
 *.htm
@@ -11,6 +10,8 @@ simulation/
 *.sld
 *.map
 *.qws
+*.sof
+*.vo
 
 # Temporary and log files
 *.log

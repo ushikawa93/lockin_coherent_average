@@ -1,0 +1,195 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do coherent_average_tb_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/segment7.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:39 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/segment7.v 
+# -- Compiling module segment7
+# 
+# Top level modules:
+# 	segment7
+# End time: 16:41:39 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:39 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v 
+# -- Compiling module descomponer_en_digitos
+# 
+# Top level modules:
+# 	descomponer_en_digitos
+# End time: 16:41:39 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/BCD_display.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:39 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/BCD_display.v 
+# -- Compiling module BCD_display
+# 
+# Top level modules:
+# 	BCD_display
+# End time: 16:41:39 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:39 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v 
+# -- Compiling module coherent_average_tb
+# 
+# Top level modules:
+# 	coherent_average_tb
+# End time: 16:41:39 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:39 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v 
+# -- Compiling module lockin_amplitude
+# 
+# Top level modules:
+# 	lockin_amplitude
+# End time: 16:41:39 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:39 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v 
+# -- Compiling module coherent_average_sm
+# 
+# Top level modules:
+# 	coherent_average_sm
+# End time: 16:41:39 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_vj11.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:40 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_vj11.v 
+# -- Compiling module mult_vj11
+# 
+# Top level modules:
+# 	mult_vj11
+# End time: 16:41:40 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_6k11.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:40 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_6k11.v 
+# -- Compiling module mult_6k11
+# 
+# Top level modules:
+# 	mult_6k11
+# End time: 16:41:40 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_7k11.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:40 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_7k11.v 
+# -- Compiling module mult_7k11
+# 
+# Top level modules:
+# 	mult_7k11
+# End time: 16:41:41 on Feb 06,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_0k11.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:41 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_0k11.v 
+# -- Compiling module mult_0k11
+# 
+# Top level modules:
+# 	mult_0k11
+# End time: 16:41:41 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_1k11.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:41 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_1k11.v 
+# -- Compiling module mult_1k11
+# 
+# Top level modules:
+# 	mult_1k11
+# End time: 16:41:41 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/data_source.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:41 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/data_source.v 
+# -- Compiling module data_source
+# 
+# Top level modules:
+# 	data_source
+# End time: 16:41:41 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:41 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin.v 
+# -- Compiling module lockin
+# 
+# Top level modules:
+# 	lockin
+# End time: 16:41:41 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb {C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:41 on Feb 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb" C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 16:41:41 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 16:41:41 on Feb 06,2025
+# Loading work.testbench
+# Loading work.coherent_average_tb
+# Loading work.descomponer_en_digitos
+# Loading work.BCD_display
+# Loading work.segment7
+# Loading work.data_source
+# Loading work.lockin
+# Loading work.lockin_amplitude
+# Loading work.coherent_average_sm
+# ** Warning: (vsim-3015) C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(189): [PCDPC] - Port size (64) does not match connection size (16) for port 'amplitud'. The port definition is at: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/genblk3/amplitud_li_inst File: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v
+# ** Warning: (vsim-3015) C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(216): [PCDPC] - Port size (32) does not match connection size (27) for port 'data_out'. The port definition is at: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/genblk4/CA File: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v
+# ** Warning: (vsim-3015) C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(262): [PCDPC] - Port size (64) does not match connection size (16) for port 'amplitud'. The port definition is at: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/genblk4/amplitud_ca_li_inst File: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v
+# ** Warning: (vsim-3015) C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(286): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit0'. The port definition is at: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+# ** Warning: (vsim-3015) C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(286): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit1'. The port definition is at: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+# ** Warning: (vsim-3015) C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(286): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit2'. The port definition is at: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+# ** Warning: (vsim-3015) C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(286): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit3'. The port definition is at: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+# ** Warning: (vsim-3015) C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(286): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit4'. The port definition is at: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+# ** Warning: (vsim-3015) C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v(286): [PCDPC] - Port size (5) does not match connection size (4) for port 'digit5'. The port definition is at: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/ca_inst/desc_li File: C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Break in Module testbench at C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/testbench.v line 28
+# End time: 16:42:40 on Feb 06,2025, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 9

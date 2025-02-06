@@ -1,5 +1,5 @@
 Flow report for multiplicador
-Tue May 09 20:24:41 2023
+Thu Feb 06 16:37:06 2025
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue May 09 20:24:41 2023       ;
+; Flow Status                     ; Successful - Thu Feb 06 16:37:06 2025       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; multiplicador                               ;
 ; Top-level Entity Name           ; fetch_test                                  ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/09/2023 20:21:06 ;
+; Start date & time ; 02/06/2025 16:34:38 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; multiplicador       ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ refer to the applicable agreement for further details.
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; AUTO_DSP_RECOGNITION                 ; Off                                    ; On            ; --          ; --             ;
-; COMPILER_SIGNATURE_ID                ; 31264773218378.168367446405784         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 963354676055.173887047805124           ; --            ; --          ; --             ;
 ; DSP_BLOCK_BALANCING                  ; Logic Elements                         ; Auto          ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; fetch_test_tb  ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; fetch_test_tb                          ; --            ; --          ; eda_simulation ;
@@ -108,12 +108,12 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:38     ; 1.0                     ; 4805 MB             ; 00:00:48                           ;
-; Fitter                    ; 00:02:13     ; 1.0                     ; 6241 MB             ; 00:02:18                           ;
-; Assembler                 ; 00:00:18     ; 1.0                     ; 4826 MB             ; 00:00:15                           ;
-; TimeQuest Timing Analyzer ; 00:00:17     ; 1.0                     ; 5118 MB             ; 00:00:14                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 4730 MB             ; 00:00:04                           ;
-; Total                     ; 00:03:29     ; --                      ; --                  ; 00:03:39                           ;
+; Analysis & Synthesis      ; 00:00:25     ; 1.0                     ; 4806 MB             ; 00:00:42                           ;
+; Fitter                    ; 00:01:23     ; 1.0                     ; 6254 MB             ; 00:01:48                           ;
+; Assembler                 ; 00:00:19     ; 1.0                     ; 4831 MB             ; 00:00:16                           ;
+; TimeQuest Timing Analyzer ; 00:00:12     ; 1.0                     ; 5131 MB             ; 00:00:11                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4734 MB             ; 00:00:02                           ;
+; Total                     ; 00:02:21     ; --                      ; --                  ; 00:02:59                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -122,11 +122,11 @@ refer to the applicable agreement for further details.
 +---------------------------+------------------+------------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +---------------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-TN92N90  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter                    ; DESKTOP-TN92N90  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler                 ; DESKTOP-TN92N90  ; Windows 10 ; 10.0       ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-TN92N90  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-TN92N90  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis      ; DESKTOP-4F847D8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; DESKTOP-4F847D8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; DESKTOP-4F847D8  ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-4F847D8  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-4F847D8  ; Windows 10 ; 10.0       ; x86_64         ;
 +---------------------------+------------------+------------+------------+----------------+
 
 

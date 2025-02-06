@@ -1,0 +1,319 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/simulation/modelsim
+vBCD_display
+Z1 !s110 1738870899
+!i10b 1
+!s100 hTRz88LbnX0kjLo`i8Ml51
+IjIZeKoY7T_D_BlI754;W90
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1738869425
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/BCD_display.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/BCD_display.v
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1738870899.000000
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/BCD_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/BCD_display.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb
+Z8 tCvgOpt 0
+n@b@c@d_display
+vcoherent_average_sm
+R1
+!i10b 1
+!s100 oW60HG6TKMfBnc7iVG8N>1
+I<D]7gE?ehFSb;_:`7:51U2
+R2
+R0
+R3
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_sm.v|
+!i113 1
+R6
+R7
+R8
+vcoherent_average_tb
+R1
+!i10b 1
+!s100 ?8AfzKlNFmf_688ej2dF]1
+I2VXF=NSLYjPe0^i^]ENPW0
+R2
+R0
+R3
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/coherent_average_tb.v|
+!i113 1
+R6
+R7
+R8
+vdata_source
+Z9 !s110 1738870901
+!i10b 1
+!s100 X4bzEj[3fe[g_S:KX1FD<2
+I;8SdKK3kSB:12f_FB9MZC1
+R2
+R0
+R3
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/data_source.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/data_source.v
+L0 2
+R4
+r1
+!s85 0
+31
+Z10 !s108 1738870901.000000
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/data_source.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/data_source.v|
+!i113 1
+R6
+R7
+R8
+vdescomponer_en_digitos
+R1
+!i10b 1
+!s100 eDQWa2m4DdZMa55`VKc[62
+In1=;Vb:J:<QcA:fYm58??1
+R2
+R0
+R3
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/descomponer_en_digitos.v|
+!i113 1
+R6
+R7
+R8
+vlockin
+R9
+!i10b 1
+!s100 NhbAZ_5Ng_T_D_DPAoOA`2
+I7TkcdV5Y2cTQihNWD0SA[0
+R2
+R0
+R3
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin.v
+L0 2
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin.v|
+!i113 1
+R6
+R7
+R8
+vlockin_amplitude
+R1
+!i10b 1
+!s100 I9`_W2eWDfJXGHN:f6KLk3
+I8iU7I@4Bn_U=:i6F3ZaQT2
+R2
+R0
+R3
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/lockin_amplitude.v|
+!i113 1
+R6
+R7
+R8
+vmult_0k11
+R9
+!i10b 1
+!s100 I=[04hA]KcnGgKH<PmM@[1
+I<=>zjD8h@@<FX^=MOD8MD0
+R2
+R0
+Z11 w1738869877
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_0k11.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_0k11.v
+Z12 L0 68
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_0k11.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_0k11.v|
+!i113 1
+R6
+Z13 !s92 -vlog01compat -work work +incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db
+R8
+vmult_1k11
+R9
+!i10b 1
+!s100 6=>DdH?Ud4G7gnR^4if1n3
+IJi1cHUe?FEeL70UikdM<63
+R2
+R0
+R11
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_1k11.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_1k11.v
+R12
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_1k11.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_1k11.v|
+!i113 1
+R6
+R13
+R8
+vmult_6k11
+Z14 !s110 1738870900
+!i10b 1
+!s100 :KCJe8V8S25B>WW6kKz9n1
+IH99k0mVJb75aEL6oI`_F01
+R2
+R0
+w1738869875
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_6k11.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_6k11.v
+Z15 L0 108
+R4
+r1
+!s85 0
+31
+Z16 !s108 1738870900.000000
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_6k11.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_6k11.v|
+!i113 1
+R6
+R13
+R8
+vmult_7k11
+R9
+!i10b 1
+!s100 g1Da;DJoaUC<hUAfQ8l2g2
+IUAZ6MR8;HM;S;LD?[_MQa2
+R2
+R0
+w1738869876
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_7k11.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_7k11.v
+R15
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_7k11.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_7k11.v|
+!i113 1
+R6
+R13
+R8
+vmult_vj11
+R14
+!i10b 1
+!s100 55>Bc1RhZ[B<=eU1zhPCW1
+I0Je>klK`JJD2dU^k^a09I2
+R2
+R0
+w1738869874
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_vj11.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_vj11.v
+L0 148
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_vj11.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/db/mult_vj11.v|
+!i113 1
+R6
+R13
+R8
+vsegment7
+R1
+!i10b 1
+!s100 ]c`hm7Mo_9fToWZRUd^U62
+IG?>4<bdd[_FMgE1T`Z;KH0
+R2
+R0
+R3
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/segment7.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/segment7.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/segment7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/segment7.v|
+!i113 1
+R6
+R7
+R8
+vtestbench
+R9
+!i10b 1
+!s100 RgNA9FODi?NjVFe8:EKKe1
+IHIV[oTgJL7<^EXi4GSa@:0
+R2
+R0
+R3
+8C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/testbench.v
+FC:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/testbench.v
+L0 4
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb|C:/Users/mati9/OneDrive/Documentos/03-RepositoriosTesis/lockin_coherent_average/coherent_average_tb/testbench.v|
+!i113 1
+R6
+R7
+R8
