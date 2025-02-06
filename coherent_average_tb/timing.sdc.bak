@@ -1,9 +1,0 @@
-# Archivo de temporización básico
-
-create_clock -name "clk_rapido" -period 20.000ns [get_ports {clk}]
-create_clock -name "clk_lento" -period 20.000ns [get_ports {clk}]
-
-derive_pll_clocks
-derive_clock_uncertainty
-
-update_timing_netlist
