@@ -1,0 +1,42 @@
+# Quartus II output and temporary files
+db/
+incremental_db/
+simulation/
+*.rpt
+*.done
+*.jdi
+*.smsg
+*.chg
+*.html
+*.htm
+*.eqn
+*.pin
+*.sof
+*.pof
+*.jic
+*.raw
+*.sld
+*.map
+*.summary
+*.qws
+
+# Temporary and log files
+*.log
+*.bak
+*.tmp
+*.temp
+*.~*
+
+# Waveform files
+*.vwf
+*.wcfg
+
+# Testbench output files
+*.vcd
+*.wlf
+
+# Synopsys Design Constraints (SDC) files
+*.sdc
+
+# User-specific files
+*.qws
